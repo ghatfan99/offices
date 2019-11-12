@@ -1,0 +1,17 @@
+.office {
+  overflow: hidden;
+}
+.officeSVG {
+  width: 100%;
+  height: auto;
+}
+.officeSVG g rect {
+    fill: rgb(187, 208, 226);
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+  }
+
+  .officeSVG .isActive path {
+    fill: rgb(13, 134, 94);
+  }
